@@ -5,7 +5,7 @@ let maxNome = 0;
 cont = 0;
 
 
-while(i == "S" || 1 == "s"){
+while(i == "S" || i == "s"){
     const nome = prompt("Digite o nome do atleta:");
     const alt = parseFloat(prompt("Digite a altura do atleta"));
 
@@ -21,7 +21,8 @@ while(i == "S" || 1 == "s"){
     console.log(`Atleta: ${nome}`);
     console.log(`Atleta: ${alt}`);
     console.log(`Contador: ${cont}`);
-    if(i == "S" || 1 == "s"){
+
+    if(i == "S" || i == "s"){
        i = prompt("Deseja cadastrar novamente um atleta? (Digite S ou N)");
     }
     
